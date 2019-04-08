@@ -1,0 +1,17 @@
+{
+  "name": "tuntikirja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/index.js",
+  "scripts": {
+    "start": "tsc && node ./js/index.js",
+    "compile": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/puppeteer": "^1.12.3",
+    "moment": "^2.24.0",
+    "puppeteer": "^1.14.0"
+  }
+}
